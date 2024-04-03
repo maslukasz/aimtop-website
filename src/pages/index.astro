@@ -10,64 +10,45 @@ import ContentMedia from '../components/ContentMedia.astro'
   <Hero />
   <section class="my-64">
     <div class="container">
-      <h2 class="mb-16 text-6xl">Features</h2>
+      <h2 class="mb-16 text-6xl">O naszej działalonści</h2>
       <div class="grid grid-cols-1 gap-12 md:grid-cols-2 lg:grid-cols-3">
-        <Feature icon="mdi:tailwind" title="Tailwind CSS">
-          Use the power of Tailwind to greatly improve your productivity and enhance your developer workflow.
+        <Feature icon="mdi:book-open-page-variant" title="Autorskie treści">
+          Doświadczony zespół pisze autorskie teksty, które pomogą Ci w rozwoju w grach FPS takich jak Valorant czy CS2.
         </Feature>
-        <Feature icon="mdi:wheelchair-accessibility" title="a11y Components">
-          17 components and counting, all tried and tested for the most optimal accessible experience for your visitors.
+        <Feature icon="mdi:account-group" title="Społeczność">
+          Od graczy dla graczy. Nie działamy pod komercję. Chcemy się dzielić pasją.
         </Feature>
-        <Feature icon="mdi:looks" title="Prettier">
-          Less worry about formatting your code, let the Astro Prettier integration do the heavy lifting.
+        <Feature icon="mdi:account-question" title="Pomoc">
+          Jesteśmy po to, żeby Ci pomóc! Zbieramy społeczność, która za darmo pomoże Ci w rozwoju w Twojej ulubionej grze.
         </Feature>
-        <Feature icon="mdi:eslint" title="ESLint">
-          Lint your code with strict a11y settings to ensure you stay on track with the WCAG standards.
+        <Feature icon="mdi:account-star" title="Utalentowani gracze">
+          Znajdziesz u nas topowych mechanicznie graczy z Polski, którzy są chętni do integracji z innymi.
         </Feature>
-        <Feature icon="mdi:book-open-page-variant" title="Blog">
-          This theme comes with a fully integrated blog, dynamic pages and SEO optimization.
+        <Feature icon="mdi:chart-bar-stacked" title="Benchmarki">
+          Wiemy jak społeczność uwielbia benchmarki, dlatego tworzymy je i zbieramy już istniejące.
         </Feature>
-        <Feature icon="mdi:language-markdown" title="Markdown & MDX">
-          Easily use .md and .mdx pages to build your websites or use it with Netlify CMS.
-        </Feature>
-        <Feature icon="mdi:theme-light-dark" title="Dark mode">
-          Fully integrated Dark mode gives your users the choice for their favorite viewing mode.
-        </Feature>
-        <Feature icon="mdi:cog" title="Design System">
-          The theme offers some very handy utilities to help you build your website faster.
-        </Feature>
-        <Feature icon="mdi:lighthouse" title="Lighthouse Scores">
-          Excellent lighthouse scores means your website will load faster and get better SEO rankings.
+        <Feature icon="mdi:twitch" title="Współpracujemy ze streamerami">
+          Doceniamy mniejszych, utalentowanych twórców. Współpraca z nami jest prosta i korzystna.
         </Feature>
       </div>
     </div>
   </section>
-  <ContentMedia imgSrc="/accessible-components.webp">
-    <h2>Accessible Components</h2>
-    <p class="text-2xl">
-      This theme provides plenty of tried and tested Accessible Astro Components. Some are native to this theme and a
-      lot of others are integrated using a <a href="https://github.com/markteekman/accessible-astro-components"
-        >separate package</a
-      >. They'll get you up and running in building an accessible solution for your visitors.
-    </p>
-  </ContentMedia>
-  <ContentMedia imgSrc="/wcag-compliant.webp" reverseImg={true}>
-    <h2>WCAG 2.1 AA Compliant</h2>
-    <p class="text-2xl">
-      Using semantic HTML, landmarks, skip links, screen reader friendly content, aria-labels, keyboard accessible
-      navigation and components, clear outlines and tab indicators and the right color contrast, you're more certain of
-      reaching WCAG AA compliance.
-    </p>
-  </ContentMedia>
   <section class="mb-32 mt-64">
     <div class="container">
-      <h2 class="mb-16 text-6xl">Counters</h2>
+      <h2 class="mb-16 text-6xl">Nasze statystyki</h2>
       <div class="grid grid-cols-1 gap-12 sm:grid-cols-2 md:grid-cols-4">
-        <Counter count="520" title="Stars" sub="On GitHub" />
-        <Counter count="17" title="Accessible" sub="Components" />
-        <Counter count="500" title="Commits" sub="Merged" />
-        <Counter count="18+" title="Months" sub="Since launch" />
+        <Counter count="20" title="Autorskich" sub="materiałów" />
+        <Counter count="10+" title="Analiz" sub="wideo" />
+        <Counter count="100+" title="Użytkowników"/>
+        <Counter count="3+" title="Podopiecznych" />
       </div>
     </div>
   </section>
+  <ContentMedia imgSrc="/weeklyab.png">
+    <h2>Profesjonalne treści</h2>
+    <p class="text-2xl">
+      Nasze autorskie materiały są profesjonalnie wykonane. Wkładamy wiele wysiłku, żeby każdy stworzony przez nas element był najwyższej jakości.
+      Bardzo dobrym potwierdzeniem tego będzie wybranie naszego "scenario" do WEEKLY CHALLENGES w Aimbeast.
+    </p>
+  </ContentMedia>
 </DefaultLayout>

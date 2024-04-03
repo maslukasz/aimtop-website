@@ -1,0 +1,45 @@
+---
+import DefaultLayout from '../layouts/DefaultLayout.astro'
+import Feature from '../components/Feature.astro'
+---
+
+<DefaultLayout title="404">
+  <section class="my-12">
+    <div class="container">
+      <h1>Nasi partnerzy</h1>
+    </div>
+  </section>
+  <section class="my-12">
+    <div class="space-content container">
+      <p class="text-2xl">aimtop jest społecznością, która wyciąga rękę do ambitnych i utalentowanych twórców, którzy chcą się rozwijać. Nie patrzymy na zasięgi, lecz na aktywność. Zależy nam na tych, którzy się starają<div class=""></div></p>
+    </div>
+  </section>
+  <section class="my-20">
+    <div class="container">
+      <h2 class="mb-16 text-6xl">Twórcy, którzy nam zaufali</h2>
+      <div class="grid grid-cols-1 gap-12 md:grid-cols-2 lg:grid-cols-3">
+        <Feature icon="mdi:youtube" title="mluki">
+          Poradniki do poprawy aima i umiejętności w grach CS2 i Valorant. Również założyciel aimtop.
+          
+          <a class="group my-5 relative inline-block text-sm font-medium text-white focus:outline-none focus:ring" href="https://www.youtube.com/channel/UCPijhu4oxhBI6hyWkg7aigg">
+  <span class="absolute inset-0 border border-red-600 group-active:border-red-500"></span>
+  <span class="block text-white border border-red-600 bg-red-600 px-12 py-3 transition-transform active:border-red-500 active:bg-red-500 group-hover:-translate-x-1 group-hover:-translate-y-1">Kanał YouTube</span></a>
+        </Feature>
+        <Feature icon="mdi:twitch" title="Aleqvx">
+          Streamy z aim trainerów i gier FPS.
+
+          <a class="group my-5 relative inline-block text-sm font-medium text-white focus:outline-none focus:ring" href="twitch.tv/aleqvx">
+            <span class="absolute inset-0 border border-purple-600 group-active:border-purple-500"></span>
+            <span class="block text-white border border-purple-600 bg-purple-600 px-12 py-3 transition-transform active:border-purple-500 active:bg-purple-500 group-hover:-translate-x-1 group-hover:-translate-y-1">Kanał Twitch</span></a>
+        </Feature>
+        <Feature icon="mdi:twitch" title="luki896Pomoc">
+          Streamy z CS2.
+
+          <a class="group my-5 relative inline-block text-sm font-medium text-white focus:outline-none focus:ring" href="https://www.twitch.tv/luki896">
+            <span class="absolute inset-0 border border-purple-600 group-active:border-purple-500"></span>
+            <span class="block text-white border border-purple-600 bg-purple-600 px-12 py-3 transition-transform active:border-purple-500 active:bg-purple-500 group-hover:-translate-x-1 group-hover:-translate-y-1">Kanał Twitch</span></a>
+        </Feature>
+      </div>
+    </div>
+  </section>
+</DefaultLayout>

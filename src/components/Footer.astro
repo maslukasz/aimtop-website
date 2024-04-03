@@ -1,18 +1,16 @@
 ---
-import CallToAction from './CallToAction.astro'
+import { Icon } from 'astro-icon/components'
 
 const currentYear = new Date().getFullYear()
 ---
 
 <footer>
-  <CallToAction />
   <section class="py-8">
     <div class="container">
       <p>
-        &copy; {currentYear} - Starter Theme for <a href="https://astro.build/">Astro</a>. Made with ❤️ by <a
-          href="https://github.com/markteekman">Mark Teekman</a
-        >.
+        &copy; {currentYear} - Tworzone przez <a href="">aimtop</a>
+        <a><Icon name="mdi:github"></Icon></a>
       </p>
     </div>
   </section>
-</footer>
+</footer> 
