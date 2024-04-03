@@ -9,6 +9,7 @@ import starlight from "@astrojs/starlight";
 // https://astro.build/config
 export default defineConfig({
   compressHTML: true,
+  devToolbar: { enabled: false },
   integrations: [icon(), tailwind({
     applyBaseStyles: false
   }), compress(), starlight({
